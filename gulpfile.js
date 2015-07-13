@@ -8,6 +8,7 @@ var config = {
   publicDir: './public',
   html: './public/**/*html',
   css: 'css/app.scss',
+  cssWatch: 'css/**/*.scss',
 };
 
 
@@ -68,7 +69,7 @@ gulp.task("html", function() {
 });
 
 gulp.task('watch' , function(){
-    gulp.watch( config.css,["css"]);
+    gulp.watch( config.cssWatch, ["css"]);
     gulp.watch( [
     config.bowerDir + '/jquery/dist/jquery.min.js',
     config.bowerDir + '/bootstrap-sass/assets/javascripts/bootstrap.js',
