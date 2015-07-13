@@ -5,6 +5,7 @@ This project demonstrates an example of customizing a Bootstrap SASS build.  Thi
 
 
 To install:
+
     $ npm install
     $ bower install
 
