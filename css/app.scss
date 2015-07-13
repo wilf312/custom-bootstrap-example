@@ -1,7 +1,14 @@
 @import url('http://fonts.googleapis.com/css?family=Calibri:400,300,700,900');
 
+// サイトの変数
 @import "variables";
-@import "bootstrap";
+
+// Bootstrapの読み込みを選択するファイル
+@import "bootstrap-custom";
+
+// Bootstrapのメインテーマ
+// 消すとドロップシャドウなどが消える
 @import "bootstrap/theme";
 
+// 実際にレイアウトを記述するファイル
 @import "theme";
